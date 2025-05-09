@@ -8,3 +8,9 @@ spec:
   - image:
       repoURL: ghcr.io/himeshpanc/guestbook
       imageSelectionStrategy: SemVer
+  # Add this to track your Git repo
+  - git:
+      repoURL: https://github.com/himeshpanc/kargo-simple-demo.git
+      branch: main
+      paths:
+      - base/  # Only watch the base directory for changes
