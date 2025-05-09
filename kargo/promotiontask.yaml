@@ -12,7 +12,7 @@ spec:
   - name: image
     value: ghcr.io/himeshpanc/guestbook
   - name: openpr
-    value: "false"
+    value: "true"
   steps:
   # Clone the Git repository that contains the Kustomize configuration
   # to the ./src directory.
