@@ -6,7 +6,7 @@ metadata:
 spec:
   vars:
   - name: repoURL
-    value: https://github.com/himeshpanc/kargo-simple.git
+    value: https://github.com/himeshpanc/kargo-simple-demo.git
   - name: branch
     value: main
   - name: image
